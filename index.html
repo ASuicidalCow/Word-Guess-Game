@@ -3,34 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hangman</title>
+    <title>Psychic Game</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script type="text/javascript" src="./assets/javascript/game.js"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
     <body>
         <div class="wrapper">
-            <h1> Welcome to my Word Guess game</h1>
+            <h1> Welcome to my Letter Guess Game</h1>
             <br>
-            <p>Use the alphabet to pick a letter:</p>
-        </div>
-        <div class="wrapper">
-            <div id="buttons">
-            </div>
-            <p id="states"></p>
-            <div id="hold">
-            </div>
-            <p id="guessesLeft"></p>
-            <p id= "clue"></p>
-            <canvas id="stickman">
-            </canvas>
-            <div class="container">
-                <button id ="hint">How about a hint?</button>
-                <button id ="resetGame">Play again?</button>
-            </div>
-
-
-        </div>
-    
+            <h2>Guess what Letter I'm thinking of</h2>
+            <br>   
+            <p id="wins">Wins: </p>
+            <p id="losses">Losses: </p>
+            <p id="guesses">Guesses left: </p>
+            <p id="lettersGuessed">Letters guessed so far: </p>
+     
     </body>
 </html>
