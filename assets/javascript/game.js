@@ -11,7 +11,7 @@
   var computerGuess = alphabet[Math.floor(Math.random() * alphabet.length)];
     console.log(computerGuess)
   var restart = function(){
-    guessesLeft = 10;
+    guessesLeft = 15;
     guessedLetters = [];
     computerGuess = alphabet[Math.floor(Math.random() * alphabet.length)];
     console.log(computerGuess)
